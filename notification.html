@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications</title>
+ 
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Notifications</h1>
+    </div>
+    <div class="notification">
+      <img src="https://picsum.photos/50" alt="User">
+      <div class="content">
+        <p><span>@priyanshu</span> liked your post.</p>
+        <p class="time">5m ago</p>
+      </div>
+    </div>
+    <div class="notification">
+      <img src="https://picsum.photos/50" alt="User">
+      <div class="content">
+        <p><span>@Anjali</span> followed you.</p>
+        <p class="time">1h ago</p>
+      </div>
+    </div>
+    <div class="notification">
+      <img src="https://picsum.photos/50" alt="User">
+      <div class="content">
+        <p><span>@Gauri</span> mentioned you in a post.</p>
+        <p class="time">3h ago</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #15202b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .header {
+    padding: 20px;
+    background-color: #192734;
+    border-bottom: 1px solid #38444d;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .notification {
+    background-color: #192734;
+    padding: 15px;
+    margin: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+
+  .notification img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  .notification .content {
+    font-size: 16px;
+  }
+
+  .notification .content span {
+    color: #1da1f2;
+  }
+
+  .notification .time {
+    font-size: 14px;
+    color: #8899a6;
+    margin-top: 5px;
+  }
+</style>
