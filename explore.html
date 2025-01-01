@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>explore</title>
+  
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Home</h1>
+    </div>
+
+    <!-- Stories Section -->
+    <div class="stories">
+      <div class="story">
+        <img src="https://picsum.photos/80" alt="Story 1">
+        <p>Anjali</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80" alt="Story 2">
+        <p>Gauri</p>
+      </div>
+      <div class="story">
+        <img src="https://picsum.photos/80" alt="Story 3">
+        <p>Priyanshu</p>
+      </div>
+    </div>
+
+    <!-- Posts Section -->
+    <div class="posts">
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>Priyanshu</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>Anjali</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>Gauri</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>User555</h3>
+        <p>Happy New Year!</p>
+        <p class="time">5m ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>Jane Smith</h3>
+        <p>Programming!</p>
+        <p class="time">1h ago</p>
+      </div>
+      <div class="post">
+        <img src="https://picsum.photos/400/200" alt="Post Image">
+        <h3>Mike Johnson</h3>
+        <p>Web Designing!.</p>
+        <p class="time">3h ago</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #15202b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  /* Header */
+  .header {
+    padding: 20px;
+    background-color: #192734;
+    border-bottom: 1px solid #38444d;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  /* Stories Section */
+  .stories {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 20px;
+    background-color: #192734;
+    margin-bottom: 20px;
+  }
+
+  .story {
+    flex: 0 0 80px;
+    margin-right: 15px;
+    text-align: center;
+  }
+
+  .story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #1da1f2;
+    margin-bottom: 5px;
+  }
+
+  .story p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  /* Posts Section */
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .post {
+    background-color: #192734;
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  .post img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .post h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .post p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .post .time {
+    font-size: 14px;
+    color: #8899a6;
+    margin-top: 10px;
+  }
+</style>
